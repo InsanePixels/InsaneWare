@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{ac9a2c7f-03a8-44c0-90b2-ce260a3fe58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Windows">
+      <UniqueIdentifier>{04628003-9fa7-4641-9aa7-01e8451ed060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5f4845f4-2f13-4b07-b07b-c2d8b6454fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GenericPlatform">
+      <UniqueIdentifier>{5d633e06-1143-4cf7-aca8-e42514771649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Windows">
+      <UniqueIdentifier>{08b2e8f7-e48f-4937-ad0f-bba788c22966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PlatformAbstractionLayer">
+      <UniqueIdentifier>{e833e9c0-a9e6-438c-81ae-0692c4941f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Windows\Resources">
+      <UniqueIdentifier>{35607cbc-7cfd-434d-8f49-21d4331e7661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Runtime\Launcher\Windows\InsaneWindowsLauncher.cpp">
+      <Filter>Launcher\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Runtime\Core\Windows\InpixWindowsWindow.cpp">
+      <Filter>Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Runtime\Core\Windows\InpixWindowsApplication.cpp">
+      <Filter>Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatform.cpp">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Runtime\Core\Windows\InpixWindowsPlatform.cpp">
+      <Filter>Core\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Runtime\Launcher\Windows\InsaneWindowsLauncher.h">
+      <Filter>Launcher\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatform.h">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsPlatform.h">
+      <Filter>Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixPlatftorm.h">
+      <Filter>Core\PlatformAbstractionLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\InsaneCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsHeaders.h">
+      <Filter>Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixPlatformHeaders.h">
+      <Filter>Core\PlatformAbstractionLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericWindow.h">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsWindow.h">
+      <Filter>Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericApplication.h">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsApplication.h">
+      <Filter>Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Launcher\Windows\Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Launcher\Windows\Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InsaneWindowsLauncher.rc">
+      <Filter>Launcher\Windows\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
