@@ -14,7 +14,7 @@
 
 /************************************************************************************ InsanePixels **/
 
-class InpixWindowsWindow : public InpixGenericWindow
+class InpixWindowsWindow : public InpixGenericPlatformWindow
 {
 private:
 	InpixWindowsApplication						*m_pOwnerApp;
@@ -27,7 +27,7 @@ public:
 	static const INPIX_TCHAR					m_WindowClassName[];
 
 public:
-	bool Initialize(InpixWindowsApplication *pOwnerApplication, HINSTANCE hInstance, const bool bShowImmediatly);
+	bool Initialize(InpixWindowsApplication *pOwnerApplication, const InpixGenericWindowDefinitions &Definitions, HINSTANCE hInstance, const bool bShowImmediatly);
 };
 
 /************************************************************************************ InsanePixels **/

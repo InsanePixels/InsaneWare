@@ -26,6 +26,9 @@ struct InpixGenericPlatformTypes
 	typedef signed int					INPIX_S32;
 	typedef signed long long			INPIX_S64;
 
+	typedef float						INPIX_F32;
+	typedef double						INPIX_F64;
+
 	typedef char						INPIX_ANSICHAR;
 	typedef wchar_t						INPIX_WIDECHAR;
 	typedef INPIX_U8					INPIX_CHAR8;

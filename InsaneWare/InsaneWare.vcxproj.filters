@@ -62,9 +62,6 @@
     <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixPlatformHeaders.h">
       <Filter>Core\PlatformAbstractionLayer</Filter>
     </ClInclude>
-    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericWindow.h">
-      <Filter>Core\GenericPlatform</Filter>
-    </ClInclude>
     <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsWindow.h">
       <Filter>Core\Windows</Filter>
     </ClInclude>
@@ -76,6 +73,24 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Launcher\Windows\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatformString.h">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsPlatformString.h">
+      <Filter>Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatformWindow.h">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatformHeaders.h">
+      <Filter>Core\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixString.h">
+      <Filter>Core\PlatformAbstractionLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixStringUtilities.h">
+      <Filter>Core\PlatformAbstractionLayer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -15,6 +15,7 @@
 /************************************************************************************ InsanePixels **/
 
 #include <new>
+#include <vector>
 #include <wchar.h>
 #include <stddef.h>
 #include <stdlib.h>
@@ -23,14 +24,6 @@
 #include <math.h>
 #include <float.h>
 #include <string.h>
-
-/************************************************************************************ InsanePixels **/
-
-/************************************************************************************ InsanePixels **/
-
-#ifdef INPIX_PLATFORM_WINDOWS
-#include "..\Windows\InpixWindowsHeaders.h"
-#endif // 
 
 /************************************************************************************ InsanePixels **/
 

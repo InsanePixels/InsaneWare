@@ -32,4 +32,11 @@
 
 /************************************************************************************ InsanePixels **/
 
+#include "InpixWindowsPlatformString.h"
+#include "InpixWindowsApplication.h"
+#include "InpixWindowsWindow.h"
+
+/************************************************************************************ InsanePixels **/
+
+
 #endif // !INPIX_WINDOWS_HEADERS_H

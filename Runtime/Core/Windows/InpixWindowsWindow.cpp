@@ -19,8 +19,11 @@ const INPIX_TCHAR InpixWindowsWindow::m_WindowClassName[] = TEXT("InsanePixelsCl
 
 /************************************************************************************ InsanePixels **/
 
-bool InpixWindowsWindow::Initialize(InpixWindowsApplication *pOwnerApplication, HINSTANCE hInstance, const bool bShowImmediatly)
+bool InpixWindowsWindow::Initialize(InpixWindowsApplication *pOwnerApplication, const InpixGenericWindowDefinitions &Definitions, HINSTANCE hInstance, const bool bShowImmediatly)
 {
+
+
+
 	return true;
 }
 

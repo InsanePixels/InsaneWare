@@ -14,14 +14,7 @@
 
 /************************************************************************************ InsanePixels **/
 
-#include "GenericPlatform/InpixGenericPlatform.h"
-#include "GenericPlatform/InpixGenericWindow.h"
-#include "GenericPlatform/InpixGenericApplication.h"
-
-/************************************************************************************ InsanePixels **/
-
 #include "PlatformAbstractionLayer/InpixPlatftorm.h"
-#include "PlatformAbstractionLayer/InpixPlatformHeaders.h"
 
 /************************************************************************************ InsanePixels **/
 

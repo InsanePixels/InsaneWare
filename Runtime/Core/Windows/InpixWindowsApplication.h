@@ -14,11 +14,6 @@
 
 /************************************************************************************ InsanePixels **/
 
-#include "..\InsaneCore.h"
-#include "InpixWindowsHeaders.h"
-
-/************************************************************************************ InsanePixels **/
-
 class InpixWindowsApplication : public InpixGenericApplication
 {
 private:

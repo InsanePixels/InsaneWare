@@ -123,13 +123,18 @@
   <ItemGroup>
     <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericApplication.h" />
     <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatform.h" />
-    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericWindow.h" />
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatformHeaders.h" />
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatformString.h" />
+    <ClInclude Include="..\Runtime\Core\GenericPlatform\InpixGenericPlatformWindow.h" />
     <ClInclude Include="..\Runtime\Core\InsaneCore.h" />
     <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixPlatformHeaders.h" />
     <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixPlatftorm.h" />
+    <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixString.h" />
+    <ClInclude Include="..\Runtime\Core\PlatformAbstractionLayer\InpixStringUtilities.h" />
     <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsApplication.h" />
     <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsHeaders.h" />
     <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsPlatform.h" />
+    <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsPlatformString.h" />
     <ClInclude Include="..\Runtime\Core\Windows\InpixWindowsWindow.h" />
     <ClInclude Include="..\Runtime\Launcher\Windows\InsaneWindowsLauncher.h" />
     <ClInclude Include="resource.h" />

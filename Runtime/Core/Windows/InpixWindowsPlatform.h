@@ -14,6 +14,11 @@
 
 /************************************************************************************ InsanePixels **/
 
+#define INPIX_FORCEINLINE		__forceinline
+#define INPIX_FORCENOINLINE		__declspec(noinline)
+
+/************************************************************************************ InsanePixels **/
+
 struct InpixWindowsPlatformTypes : public InpixGenericPlatformTypes
 {
 #ifdef  INPIX_WINDOWS_64

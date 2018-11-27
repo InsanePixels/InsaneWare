@@ -9,8 +9,7 @@
 /*	NOTES:																							*/
 /*																									*/
 /************************************************************************************ InsanePixels **/
-#include "InpixWindowsApplication.h"
-#include "InpixWindowsWindow.h"
+#include "..\InsaneCore.h"
 
 #include <Ole2.h>
 #include <ShlObj.h>
