@@ -67,6 +67,15 @@ public:
 	{
 		return m_Data[p];
 	}
+
+public:
+	INPIX_FORCEINLINE void AppendString(const INPIX_TCHAR *pString, INPIX_U32 Count)
+	{
+		if (Count <= 0) return;
+		INPIX_U32 Index = m_Data.size();
+		m_Data.resize(Count + Index + Index ? 0 : 1);
+
+	}
 };
 
 /************************************************************************************ InsanePixels **/
